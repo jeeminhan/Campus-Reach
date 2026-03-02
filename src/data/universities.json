@@ -1,0 +1,2227 @@
+[
+  {
+    "id": "new-york-university",
+    "name": "New York University",
+    "city": "New York",
+    "state": "NY",
+    "totalInternational": 19401,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 7228
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 4755
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1331
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 1141
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 951
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 951
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 951
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 761
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 761
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 571
+      }
+    ]
+  },
+  {
+    "id": "northeastern-university",
+    "name": "Northeastern University",
+    "city": "Boston",
+    "state": "MA",
+    "totalInternational": 18396,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 6557
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 4736
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1275
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 1093
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 911
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 911
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 911
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 729
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 729
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 544
+      }
+    ]
+  },
+  {
+    "id": "columbia-university",
+    "name": "Columbia University",
+    "city": "New York",
+    "state": "NY",
+    "totalInternational": 17209,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 5851
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 4646
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1205
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 1033
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 860
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 860
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 860
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 688
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 688
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 518
+      }
+    ]
+  },
+  {
+    "id": "arizona-state-university",
+    "name": "Arizona State University",
+    "city": "Tempe",
+    "state": "AZ",
+    "totalInternational": 16952,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 6315
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 4155
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1163
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 997
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 831
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 831
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 831
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 665
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 665
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 499
+      }
+    ]
+  },
+  {
+    "id": "university-of-southern-california",
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "state": "CA",
+    "totalInternational": 15009,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 5350
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 3864
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1040
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 892
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 743
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 743
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 743
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 594
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 594
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 446
+      }
+    ]
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "name": "University of Illinois Urbana-Champaign",
+    "city": "Champaign",
+    "state": "IL",
+    "totalInternational": 14649,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 4981
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 3955
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 1025
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 879
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 732
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 732
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 732
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 586
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 586
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 441
+      }
+    ]
+  },
+  {
+    "id": "boston-university",
+    "name": "Boston University",
+    "city": "Boston",
+    "state": "MA",
+    "totalInternational": 11207,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 4175
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2747
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 769
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 659
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 549
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 549
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 549
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 439
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 439
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 332
+      }
+    ]
+  },
+  {
+    "id": "purdue-university-west-lafayette",
+    "name": "Purdue University - West Lafayette",
+    "city": "West Lafayette",
+    "state": "IN",
+    "totalInternational": 10980,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3914
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2827
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 761
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 652
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 544
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 544
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 544
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 435
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 435
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 324
+      }
+    ]
+  },
+  {
+    "id": "university-of-california-san-diego",
+    "name": "University of California, San Diego",
+    "city": "San Diego",
+    "state": "CA",
+    "totalInternational": 10467,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3559
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2826
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 733
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 628
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 523
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 523
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 523
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 419
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 419
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 314
+      }
+    ]
+  },
+  {
+    "id": "university-of-california-los-angeles",
+    "name": "University of California, Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "totalInternational": 10134,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3775
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2484
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 695
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 596
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 497
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 497
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 497
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 397
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 397
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 299
+      }
+    ]
+  },
+  {
+    "id": "carnegie-mellon-university",
+    "name": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "totalInternational": 9785,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3488
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2519
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 678
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 581
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 484
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 484
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 484
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 388
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 388
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 291
+      }
+    ]
+  },
+  {
+    "id": "university-of-california-berkeley",
+    "name": "University of California, Berkeley",
+    "city": "Berkeley",
+    "state": "CA",
+    "totalInternational": 9510,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3233
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2568
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 666
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 571
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 475
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 475
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 475
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 380
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 380
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 287
+      }
+    ]
+  },
+  {
+    "id": "university-of-texas-dallas",
+    "name": "The University of Texas at Dallas",
+    "city": "Richardson",
+    "state": "TX",
+    "totalInternational": 8903,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3317
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2182
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 611
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 524
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 436
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 436
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 436
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 349
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 349
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 263
+      }
+    ]
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "name": "Pennsylvania State University - University Park",
+    "city": "University Park",
+    "state": "PA",
+    "totalInternational": 8720,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3108
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2245
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 604
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 518
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 432
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 432
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 432
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 345
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 345
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 259
+      }
+    ]
+  },
+  {
+    "id": "university-at-buffalo-suny",
+    "name": "University at Buffalo, SUNY",
+    "city": "Buffalo",
+    "state": "NY",
+    "totalInternational": 8446,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2872
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2280
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 591
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 507
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 422
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 422
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 422
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 338
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 338
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 254
+      }
+    ]
+  },
+  {
+    "id": "university-of-washington-seattle",
+    "name": "University of Washington - Seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "totalInternational": 8170,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 3044
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2002
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 561
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 481
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 400
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 400
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 400
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 320
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 320
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 242
+      }
+    ]
+  },
+  {
+    "id": "texas-am-university-college-station",
+    "name": "Texas A&M University - College Station",
+    "city": "College Station",
+    "state": "TX",
+    "totalInternational": 8050,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2869
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2072
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 558
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 478
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 319
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 319
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 238
+      }
+    ]
+  },
+  {
+    "id": "university-of-michigan-ann-arbor",
+    "name": "University of Michigan - Ann Arbor",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "totalInternational": 7980,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2713
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2155
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 559
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 479
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 399
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 319
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 319
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 239
+      }
+    ]
+  },
+  {
+    "id": "university-of-california-irvine",
+    "name": "University of California, Irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "totalInternational": 7840,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2921
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1922
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 538
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 461
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 384
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 384
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 384
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 307
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 307
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 232
+      }
+    ]
+  },
+  {
+    "id": "george-mason-university",
+    "name": "George Mason University",
+    "city": "Fairfax",
+    "state": "VA",
+    "totalInternational": 7700,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2745
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1982
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 534
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 457
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 381
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 381
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 381
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 305
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 305
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 229
+      }
+    ]
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "name": "University of Illinois Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "totalInternational": 7600,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2584
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 2052
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 532
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 456
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 380
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 380
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 380
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 304
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 304
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 228
+      }
+    ]
+  },
+  {
+    "id": "harvard-university",
+    "name": "Harvard University",
+    "city": "Cambridge",
+    "state": "MA",
+    "totalInternational": 7450,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2775
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1826
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 511
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 438
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 365
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 365
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 365
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 292
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 292
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 221
+      }
+    ]
+  },
+  {
+    "id": "university-of-florida",
+    "name": "University of Florida",
+    "city": "Gainesville",
+    "state": "FL",
+    "totalInternational": 7320,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2609
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1884
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 507
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 435
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 362
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 362
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 362
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 290
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 290
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 219
+      }
+    ]
+  },
+  {
+    "id": "the-ohio-state-university",
+    "name": "The Ohio State University",
+    "city": "Columbus",
+    "state": "OH",
+    "totalInternational": 7210,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2451
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1947
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 505
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 433
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 360
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 360
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 360
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 288
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 288
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 218
+      }
+    ]
+  },
+  {
+    "id": "north-carolina-state-university",
+    "name": "North Carolina State University",
+    "city": "Raleigh",
+    "state": "NC",
+    "totalInternational": 7100,
+    "countries": [
+      {
+        "countryName": "China",
+        "isoAlpha2": "CN",
+        "fipsCode": "CH",
+        "geoJsonId": "china",
+        "share": 0.36,
+        "studentCount": 2645
+      },
+      {
+        "countryName": "India",
+        "isoAlpha2": "IN",
+        "fipsCode": "IN",
+        "geoJsonId": "india",
+        "share": 0.25,
+        "studentCount": 1740
+      },
+      {
+        "countryName": "Saudi Arabia",
+        "isoAlpha2": "SA",
+        "fipsCode": "SA",
+        "geoJsonId": "saudi-arabia",
+        "share": 0.07,
+        "studentCount": 487
+      },
+      {
+        "countryName": "United Kingdom",
+        "isoAlpha2": "GB",
+        "fipsCode": "UK",
+        "geoJsonId": "uk",
+        "share": 0.06,
+        "studentCount": 418
+      },
+      {
+        "countryName": "Japan",
+        "isoAlpha2": "JP",
+        "fipsCode": "JA",
+        "geoJsonId": "japan",
+        "share": 0.05,
+        "studentCount": 348
+      },
+      {
+        "countryName": "Indonesia",
+        "isoAlpha2": "ID",
+        "fipsCode": "ID",
+        "geoJsonId": "indonesia",
+        "share": 0.05,
+        "studentCount": 348
+      },
+      {
+        "countryName": "Nigeria",
+        "isoAlpha2": "NG",
+        "fipsCode": "NI",
+        "geoJsonId": "nigeria",
+        "share": 0.05,
+        "studentCount": 348
+      },
+      {
+        "countryName": "Brazil",
+        "isoAlpha2": "BR",
+        "fipsCode": "BR",
+        "geoJsonId": "brazil",
+        "share": 0.04,
+        "studentCount": 278
+      },
+      {
+        "countryName": "Mexico",
+        "isoAlpha2": "MX",
+        "fipsCode": "MX",
+        "geoJsonId": "mexico",
+        "share": 0.04,
+        "studentCount": 278
+      },
+      {
+        "countryName": "Australia",
+        "isoAlpha2": "AU",
+        "fipsCode": "AS",
+        "geoJsonId": "australia",
+        "share": 0.03,
+        "studentCount": 210
+      }
+    ]
+  }
+]
