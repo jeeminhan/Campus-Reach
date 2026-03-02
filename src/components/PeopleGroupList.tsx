@@ -1,21 +1,27 @@
 "use client";
 
 import { PeopleGroup } from "@/data/types";
+import { computeLimit } from "@/lib/peopleGroupUtils";
 import { usePeopleGroups } from "@/lib/usePeopleGroups";
 import PeopleGroupCard from "./PeopleGroupCard";
 
 interface Props {
   fipsCode: string;
   countryName: string;
+  studentCount: number;
+  totalInternational: number;
   onSelect: (pg: PeopleGroup) => void;
 }
 
 export default function PeopleGroupList({
   fipsCode,
   countryName,
+  studentCount,
+  totalInternational,
   onSelect,
 }: Props) {
-  const { data, loading, error } = usePeopleGroups(fipsCode);
+  const limit = computeLimit(studentCount, totalInternational);
+  const { data, loading, error } = usePeopleGroups(fipsCode, limit);
 
   return (
     <div>
