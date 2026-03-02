@@ -75,6 +75,7 @@ export default function CampusView({
             highlightedCountryIds={highlightedIds}
             activeCountryId={activeGeoJsonId}
             onCountryClick={handleMapCountryClick}
+            countries={university.countries}
           />
         </div>
       </div>
