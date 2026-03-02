@@ -129,5 +129,14 @@ export async function GET(req: NextRequest) {
     return true;
   });
 
-  return NextResponse.json({ data: uniqueGroups });
+  const limitParam = req.nextUrl.searchParams.get("limit");
+  const limit = limitParam ? Math.max(1, Math.min(50, parseInt(limitParam, 10))) : 50;
+
+  const sorted = [...uniqueGroups].sort((a, b) => {
+    const aScale = parseFloat(a.JPScale) || 99;
+    const bScale = parseFloat(b.JPScale) || 99;
+    return aScale - bScale;
+  });
+
+  return NextResponse.json({ data: sorted.slice(0, limit) });
 }
