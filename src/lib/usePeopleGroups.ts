@@ -11,7 +11,7 @@ interface State {
 
 const cache = new Map<string, PeopleGroup[]>();
 
-export function usePeopleGroups(fipsCode: string | null): State {
+export function usePeopleGroups(fipsCode: string | null, limit: number): State {
   const [state, setState] = useState<State>({
     data: null,
     loading: false,
@@ -25,8 +25,10 @@ export function usePeopleGroups(fipsCode: string | null): State {
       return;
     }
 
-    if (cache.has(fipsCode)) {
-      setState({ data: cache.get(fipsCode) ?? [], loading: false, error: null });
+    const cacheKey = fipsCode ? `${fipsCode}:${limit}` : null;
+
+    if (cache.has(cacheKey!)) {
+      setState({ data: cache.get(cacheKey!) ?? [], loading: false, error: null });
       return;
     }
 
@@ -41,7 +43,7 @@ export function usePeopleGroups(fipsCode: string | null): State {
     abortRef.current = controller;
     setState({ data: null, loading: true, error: null });
 
-    fetch(`/api/people-groups?fipsCode=${encodeURIComponent(fipsCode)}`, {
+    fetch(`/api/people-groups?fipsCode=${encodeURIComponent(fipsCode)}&limit=${limit}`, {
       signal: controller.signal,
     })
       .then(async (response) => {
@@ -69,7 +71,7 @@ export function usePeopleGroups(fipsCode: string | null): State {
       })
       .then((json) => {
         const groups: PeopleGroup[] = Array.isArray(json.data) ? json.data : [];
-        cache.set(fipsCode, groups);
+        cache.set(cacheKey!, groups);
         setState({ data: groups, loading: false, error: null });
       })
       .catch((error: unknown) => {
@@ -105,7 +107,7 @@ export function usePeopleGroups(fipsCode: string | null): State {
       clearTimeout(timeoutId);
       controller.abort();
     };
-  }, [fipsCode]);
+  }, [fipsCode, limit]);
 
   return state;
 }
