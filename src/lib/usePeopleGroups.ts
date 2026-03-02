@@ -25,10 +25,10 @@ export function usePeopleGroups(fipsCode: string | null, limit: number): State {
       return;
     }
 
-    const cacheKey = fipsCode ? `${fipsCode}:${limit}` : null;
+    const cacheKey = `${fipsCode}:${limit}`;
 
-    if (cache.has(cacheKey!)) {
-      setState({ data: cache.get(cacheKey!) ?? [], loading: false, error: null });
+    if (cache.has(cacheKey)) {
+      setState({ data: cache.get(cacheKey) ?? [], loading: false, error: null });
       return;
     }
 
@@ -71,7 +71,7 @@ export function usePeopleGroups(fipsCode: string | null, limit: number): State {
       })
       .then((json) => {
         const groups: PeopleGroup[] = Array.isArray(json.data) ? json.data : [];
-        cache.set(cacheKey!, groups);
+        cache.set(cacheKey, groups);
         setState({ data: groups, loading: false, error: null });
       })
       .catch((error: unknown) => {

@@ -130,7 +130,8 @@ export async function GET(req: NextRequest) {
   });
 
   const limitParam = req.nextUrl.searchParams.get("limit");
-  const limit = limitParam ? Math.max(1, Math.min(50, parseInt(limitParam, 10))) : 50;
+  const parsed = limitParam ? parseInt(limitParam, 10) : NaN;
+  const limit = Number.isFinite(parsed) ? Math.max(1, Math.min(50, parsed)) : 50;
 
   const sorted = [...uniqueGroups].sort((a, b) => {
     const aScale = parseFloat(a.JPScale) || 99;

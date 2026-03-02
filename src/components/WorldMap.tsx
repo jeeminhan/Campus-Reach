@@ -69,11 +69,6 @@ export default function WorldMap({
     return map;
   }, [countries]);
 
-  const maxStudentCount = useMemo(
-    () => Math.max(1, ...countries.map((c) => c.studentCount)),
-    [countries]
-  );
-
   const totalStudents = useMemo(
     () => countries.reduce((sum, c) => sum + c.studentCount, 0),
     [countries]
@@ -149,7 +144,7 @@ export default function WorldMap({
                   strokeWidth = 1.5;
                 } else if (isSource) {
                   const enrollment = countryByGeoId.get(featureId);
-                  const intensity = enrollment ? enrollment.studentCount / maxStudentCount : 0.1;
+                  const intensity = enrollment && totalStudents > 0 ? enrollment.studentCount / totalStudents : 0.1;
                   fill = interpolateBlue(intensity);
                   stroke = "#93c5fd";
                   strokeWidth = 1;
