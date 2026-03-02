@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { PeopleGroup } from "@/data/types";
 
 const JP_BASE = "https://api.joshuaproject.net";
+export const runtime = "nodejs";
+export const maxDuration = 10;
 
 export async function GET(req: NextRequest) {
   const fipsCode = req.nextUrl.searchParams.get("fipsCode");
@@ -32,7 +34,7 @@ export async function GET(req: NextRequest) {
     url.searchParams.set("api_key", apiKey);
 
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 12_000);
+    const timeoutId = setTimeout(() => controller.abort(), 8_000);
     let candidateResponse: Response;
 
     try {
@@ -45,7 +47,7 @@ export async function GET(req: NextRequest) {
       lastErrorStatus = 504;
       lastErrorText =
         error instanceof Error && error.name === "AbortError"
-          ? "Request timed out after 12s"
+          ? "Request timed out after 8s"
           : error instanceof Error
             ? error.message
             : "Network error";

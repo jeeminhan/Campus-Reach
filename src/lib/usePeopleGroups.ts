@@ -37,7 +37,7 @@ export function usePeopleGroups(fipsCode: string | null): State {
     const timeoutId = setTimeout(() => {
       didTimeout = true;
       controller.abort();
-    }, 15_000);
+    }, 9_000);
     abortRef.current = controller;
     setState({ data: null, loading: true, error: null });
 
