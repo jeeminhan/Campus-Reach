@@ -1,12 +1,18 @@
 "use client";
 
+import { useRef, useState, useMemo } from "react";
 import worldGeoJson from "@/data/world.json";
 import { GeoFeatureCollection, Geometry, Position } from "@/types/geojson";
+import { CountryEnrollment } from "@/data/types";
+import { interpolateBlue } from "@/lib/peopleGroupUtils";
+import { getFlagEmoji } from "@/lib/countryUtils";
+import { formatCount } from "@/lib/formatters";
 
 interface Props {
   highlightedCountryIds: Set<string>;
   activeCountryId: string | null;
   onCountryClick: (geoJsonId: string) => void;
+  countries: CountryEnrollment[];
 }
 
 const MAP_WIDTH = 1000;
@@ -51,8 +57,35 @@ export default function WorldMap({
   highlightedCountryIds,
   activeCountryId,
   onCountryClick,
+  countries,
 }: Props) {
   const geo = worldGeoJson as GeoFeatureCollection;
+
+  const countryByGeoId = useMemo(() => {
+    const map = new Map<string, CountryEnrollment>();
+    for (const c of countries) {
+      map.set(c.geoJsonId, c);
+    }
+    return map;
+  }, [countries]);
+
+  const maxStudentCount = useMemo(
+    () => Math.max(1, ...countries.map((c) => c.studentCount)),
+    [countries]
+  );
+
+  const totalStudents = useMemo(
+    () => countries.reduce((sum, c) => sum + c.studentCount, 0),
+    [countries]
+  );
+
+  const [tooltip, setTooltip] = useState<{
+    x: number;
+    y: number;
+    country: CountryEnrollment;
+  } | null>(null);
+
+  const containerRef = useRef<HTMLDivElement>(null);
 
   return (
     <section className="rounded-2xl border border-white/10 bg-slate-900/70 p-5 md:p-6">
@@ -69,7 +102,7 @@ export default function WorldMap({
         </p>
       </div>
 
-      <div className="relative overflow-hidden rounded-xl border border-white/10 bg-slate-950/80 p-3 md:p-4">
+      <div ref={containerRef} className="relative overflow-hidden rounded-xl border border-white/10 bg-slate-950/80 p-3 md:p-4">
         <div className="relative mx-auto aspect-[16/9] w-full max-w-4xl">
           <svg viewBox="0 0 1000 560" className="h-full w-full" role="img" aria-label="World map">
             <defs>
@@ -106,9 +139,25 @@ export default function WorldMap({
                 const isSource = highlightedCountryIds.has(featureId);
                 const path = geometryToPath(feature.geometry);
 
-                const fill = isActive ? "#38bdf8" : isSource ? "#1d4ed8" : "#1e293b";
-                const stroke = isActive ? "#ffffff" : isSource ? "#93c5fd" : "#334155";
-                const strokeWidth = isActive ? 1.5 : isSource ? 1 : 0.5;
+                let fill: string;
+                let stroke: string;
+                let strokeWidth: number;
+
+                if (isActive) {
+                  fill = "#38bdf8";
+                  stroke = "#ffffff";
+                  strokeWidth = 1.5;
+                } else if (isSource) {
+                  const enrollment = countryByGeoId.get(featureId);
+                  const intensity = enrollment ? enrollment.studentCount / maxStudentCount : 0.1;
+                  fill = interpolateBlue(intensity);
+                  stroke = "#93c5fd";
+                  strokeWidth = 1;
+                } else {
+                  fill = "#1e293b";
+                  stroke = "#334155";
+                  strokeWidth = 0.5;
+                }
 
                 return (
                   <path
@@ -136,6 +185,21 @@ export default function WorldMap({
                         onCountryClick(featureId);
                       }
                     }}
+                    onMouseMove={(e) => {
+                      if (!isSource || !containerRef.current) return;
+                      const rect = containerRef.current.getBoundingClientRect();
+                      const enrollment = countryByGeoId.get(featureId);
+                      if (enrollment) {
+                        setTooltip({
+                          x: e.clientX - rect.left,
+                          y: e.clientY - rect.top,
+                          country: enrollment,
+                        });
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      if (isSource) setTooltip(null);
+                    }}
                   >
                     <title>{feature.properties.name}</title>
                   </path>
@@ -144,6 +208,27 @@ export default function WorldMap({
             </g>
           </svg>
         </div>
+        {tooltip && (
+          <div
+            className="pointer-events-none absolute z-10 rounded-lg border border-white/10 bg-slate-800/95 px-3 py-2 text-sm shadow-lg backdrop-blur-sm"
+            style={{
+              left: tooltip.x + 12,
+              top: tooltip.y - 10,
+              transform: tooltip.x > 700 ? "translateX(-100%)" : undefined,
+            }}
+          >
+            <p className="font-medium text-white">
+              {getFlagEmoji(tooltip.country.isoAlpha2)} {tooltip.country.countryName}
+            </p>
+            <p className="text-xs text-slate-400">
+              {formatCount(tooltip.country.studentCount)} students ·{" "}
+              {totalStudents > 0
+                ? ((tooltip.country.studentCount / totalStudents) * 100).toFixed(1)
+                : "0.0"}
+              %
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
