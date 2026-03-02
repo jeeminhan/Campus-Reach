@@ -13,3 +13,20 @@ export function computeLimit(studentCount: number, totalInternational: number): 
   const share = studentCount / totalInternational;
   return Math.max(1, Math.min(15, Math.round(share * 50)));
 }
+
+// Base color: #1e3a5f (dim slate-blue for low student share)
+// Full color: #1d4ed8 (vivid blue-700 for high student share)
+const LOW = [30, 58, 95] as const;
+const HIGH = [29, 78, 216] as const;
+
+/**
+ * Interpolates between a dim blue and vivid blue based on intensity (0–1).
+ * Returns a CSS rgb() string.
+ */
+export function interpolateBlue(intensity: number): string {
+  const t = Math.max(0, Math.min(1, intensity));
+  const r = Math.round(LOW[0] + (HIGH[0] - LOW[0]) * t);
+  const g = Math.round(LOW[1] + (HIGH[1] - LOW[1]) * t);
+  const b = Math.round(LOW[2] + (HIGH[2] - LOW[2]) * t);
+  return `rgb(${r},${g},${b})`;
+}
