@@ -62,6 +62,8 @@ export default function CampusView({
               <PeopleGroupList
                 fipsCode={selectedCountry.fipsCode}
                 countryName={selectedCountry.countryName}
+                studentCount={selectedCountry.studentCount}
+                totalInternational={university.totalInternational}
                 onSelect={onSelectGroup}
               />
             </div>
